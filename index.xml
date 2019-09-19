@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://liuyi21.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Sep 2019 14:14:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://liuyi21.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>搭建个人博客，学习md语法</title>
+      <link>https://liuyi21.github.io/post/blog/</link>
+      <pubDate>Thu, 19 Sep 2019 14:14:02 +0800</pubDate>
+      
+      <guid>https://liuyi21.github.io/post/blog/</guid>
+      <description> MD语法学习 第一天  斜体 下划线 黑体 黑体 删除线 多种格式复合使用   one two three  无序 无序2   runoob.com
+带下划线的文本
+创建脚注格式类似这样 [^Runoob]。   区块引用
+菜鸟教程
+学的不仅是技术，更是梦想
+最外层
+ 第一层嵌套
+ 第二层嵌套
+  区块中使用列表
+ 第一项 第二项   第一项 第二项 第三项   列表中使用区块
+ 第一项   菜鸟教程
+ </description>
+    </item>
+    
+  </channel>
+</rss>
