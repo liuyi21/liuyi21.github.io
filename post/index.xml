@@ -2,33 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://liuyi21.github.io/post/</link>
+    <link>http://example.org/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Sep 2019 14:14:02 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 09:59:07 +0800</lastBuildDate>
     
-	<atom:link href="https://liuyi21.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>搭建个人博客，学习md语法</title>
-      <link>https://liuyi21.github.io/post/blog/</link>
-      <pubDate>Thu, 19 Sep 2019 14:14:02 +0800</pubDate>
+      <title>Mybatis</title>
+      <link>http://example.org/post/mybatis/</link>
+      <pubDate>Thu, 10 Oct 2019 09:59:07 +0800</pubDate>
       
-      <guid>https://liuyi21.github.io/post/blog/</guid>
-      <description> MD语法学习 第一天  斜体 下划线 黑体 黑体 删除线 多种格式复合使用   one two three  无序 无序2   runoob.com
-带下划线的文本
-创建脚注格式类似这样 [^Runoob]。   区块引用
-菜鸟教程
-学的不仅是技术，更是梦想
-最外层
- 第一层嵌套
- 第二层嵌套
-  区块中使用列表
- 第一项 第二项   第一项 第二项 第三项   列表中使用区块
- 第一项   菜鸟教程
- </description>
+      <guid>http://example.org/post/mybatis/</guid>
+      <description>MyBatis教程 一、入门了解 1、基本信息 ​ MyBatis是一款优秀的持久层框架，它支持定制化SQL、存储过程以及高级映射。MyBatis避免了几乎所有的JDBC代码和手动设置参数以及获取结果集。MyBatis可以使用简单的XML或注解来配置和映射原生信息，将接口和java的POJOS(Plain Ordinary java Object,普通的java对象)映射成数据库中的记录。
+2、背景 ​ ORM（Object Relational Mapping，对象关系映射）是通过使用描述对象和数据库之间映射的元数据，将面向对象语言程序中的对象自动持久化到关系数据库中。
+​ 常见的ORM框架有：Hibernate、TopLink、Castor JDO、Apache OJB等。
+​ MyBatis本身是apache的一个开源项目iBatis，2010年这个项目由apache software foundation 迁移到google code，并且该名为MyBatis。2013年11月迁移到Github。
+​ 每个MyBatis应用程序主要都是使用SqlSessionFactory实例可以通过SqlSessionFactoryBuilder获得。SqlSessionFactoryBuilder可以从一个xml配置文件或者一个预定义的配置类的实例获得。
+二、环境搭建 1、引入依赖 &amp;lt;!--MyBatis的依赖--&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.mybatis&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mybatis&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.5.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!-- 连接数据库的依赖 --&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.1.47&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;!-- 日志依赖 --&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2.17&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  2、建立实体类 package xyz.liuyiblog.domain; import java.io.Serializable; import java.util.Date; public class User implements Serializable { private Integer id; private String name; private int sex; private Date birthday; private String Address; public User() { } public User(Integer id, String name, int sex, Date birthday, String address) { this.</description>
     </item>
     
   </channel>
